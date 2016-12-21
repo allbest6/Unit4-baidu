@@ -399,12 +399,15 @@ aside .bottom {
     height: 42px;
     float: left;
 }
-@media only screen and (max-width: 412px) {
+@media only screen and (max-width: 460px) {
     .plus-content a{
         font-size: 14px!important;
     }
     footer{
         bottom: -100px!important;
+    }
+    #ftCon {
+        display: none;
     }
 }
 
