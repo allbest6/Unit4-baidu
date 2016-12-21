@@ -162,7 +162,7 @@ footer {
 }
 
 #qrcode {
-    display: inline-block;
+    display: none;
 }
 
 .qrcode-item {
@@ -502,6 +502,10 @@ aside .bottom {
 }
 
 @media only screen and (min-width: 760px) {
+    #qrcode {
+    display: inline-block;
+    }
+
     #logo{
         width: 240px;
         height: 90px;
